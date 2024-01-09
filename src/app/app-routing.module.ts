@@ -4,7 +4,7 @@ import { PaisesModule } from './paises/paises.module';
 
 const routes: Routes = [
   {
-    path: 'selector',
+    path: '',
     loadChildren:() => import('./paises/paises.module').then (m => m.PaisesModule)
   }
 ];
